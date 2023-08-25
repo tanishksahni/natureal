@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+
+}
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+header {
+    position:  relative;
+}
+
+nav {
+    padding: 20px;
+    font-family: "raleway";
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+.nav-elements ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.nav-elements li {
+    margin-right: 20px;
+    font-size: 10px;
+    text-decoration: none;
+}
+.nav-items a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Courier Prime', monospace;
+    font-size: 10px;
+}
