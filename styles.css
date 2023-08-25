@@ -96,6 +96,7 @@ nav {
     font-size: 0.6rem;
     border-radius: 2rem;
     border: solid black 1px;
+    background-color: transparent;
 }
 
 /* Container - 1 */
@@ -236,5 +237,47 @@ nav {
     flex-direction: column;
     /* border: 1px solid red; */
     height: 50vh;
+    align-items: center;
+    justify-content: space-around;
+}
+.custom-product {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
+    width: 30%;
+    height: 30vh;
+    background: transparent;
+    color: rgb(241, 233, 210)
+}
+.custom-product .heading {
+    font-family: 'Roboto', sans-serif; 
+    /* font-family: 'Urbanist', sans-serif; */
+    font-weight: 300;
+    background: transparent;
+    text-align: center;
+    font-size: 1.4rem;
+    /* color: rgb(241, 233, 210); */
+
+}
+.custom-product .content {
+    text-align: center;
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.7rem;
+    background: transparent;
+    /* color: rgb(241, 233, 210), */
+}
+.create-btn {
+    display: flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 8rem;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.6rem;
+    border-radius: 2rem;
+    border: solid  1px rgb(241, 233, 210);
+    background-color: transparent;
 }
