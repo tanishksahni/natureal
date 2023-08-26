@@ -1,364 +1,708 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
 /* @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap");
 /* font-family: 'Open Sans', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
 /* font-family: 'Roboto', sans-serif; */
 
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    background-color: rgb(241, 233, 210);
-    /* background-image: url("assets/backgroung.jpg.avif"); */
-
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgb(241, 233, 210);
+  /* background-image: url("assets/backgroung.jpg.avif"); */
 }
 .logo {
-    font-family: 'Roboto', sans-serif;    /* font-family: 'Open Sans', sans-serif; */
-    font-size: 0.8rem;
+  font-family: "Roboto", sans-serif; /* font-family: 'Open Sans', sans-serif; */
+  font-size: 0.8rem;
 }
 header {
-    position:  relative;
+  position: relative;
 }
 
 nav {
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom-style: solid;
-    border-width: 1px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-style: solid;
+  border-width: 1px;
 }
-.nav-elements ul{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
+.nav-elements ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
 }
 .nav-elements li {
-    margin-right: 20px;
-    font-size: 0.7rem;
-    text-decoration: none;
+  margin-right: 20px;
+  font-size: 0.7rem;
+  text-decoration: none;
 }
-.nav-items a{
-    color: black;
-    text-decoration: none;
-    font-family: 'Courier Prime', monospace;
-    font-size: 0.7rem;
+.nav-items a {
+  color: black;
+  text-decoration: none;
+  font-family: "Courier Prime", monospace;
+  font-size: 0.7rem;
 }
 .landing {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid black;
 }
 .header-left {
-    width: 50%;
-    height: 90vh;
+  width: 50%;
+  height: 90vh;
 }
 .header-img {
-    width: 100%;
-    /* position: absolute; */
-    height: 100%;
+  width: 100%;
+  /* position: absolute; */
+  height: 100%;
 }
 .header-right {
-    /* border: solid red; */
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    height: 80vh;
-    align-items: center;
-    align-content: center;
-    justify-content: space-around;
+  /* border: solid red; */
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 80vh;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
 }
 .header-right .title {
-    font-family: 'Roboto', sans-serif; 
-    /* font-family: 'DM Serif Display', serif; */
-    font-weight: 900;
-    text-align: center;
+  font-family: "Roboto", sans-serif;
+  /* font-family: 'DM Serif Display', serif; */
+  font-weight: 900;
+  text-align: center;
 }
 .landing-subheading p {
-    font-family: 'Courier Prime', monospace;
-    font-size: 0.7rem;
-    text-align: center;
+  font-family: "Courier Prime", monospace;
+  font-size: 0.7rem;
+  text-align: center;
 }
 .shop-btn {
-    display: flex;
-    justify-content: center;
-    height: 1.5rem;
-    width: 5rem;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
-    font-size: 0.6rem;
-    border-radius: 2rem;
-    border: solid black 1px;
-    background-color: transparent;
+  display: flex;
+  justify-content: center;
+  height: 1.5rem;
+  width: 5rem;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.6rem;
+  border-radius: 2rem;
+  border: solid black 1px;
+  background-color: transparent;
 }
 
 /* Container - 1 */
 .container-one {
-    display: flex;
-    flex-direction: row;
-    /* border-bottom: 1px solid black; */
-    padding: 30px 20px;
-    height: 60vh;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  /* border-bottom: 1px solid black; */
+  padding: 30px 20px;
+  height: 60vh;
+  justify-content: space-between;
 }
 .bestsellers {
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-    justify-content: space-between;
-    width: 30%;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: space-between;
+  width: 30%;
 }
 .bestsellers .partition {
-    /* border: 1px solid red; */
-    display: flex;
-    flex-direction: column;
-    height: 15vh;
-    justify-content: space-between;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  height: 15vh;
+  justify-content: space-between;
 }
 .bestsellers .heading {
-    font-family: 'Roboto', sans-serif; 
-    /* font-family: 'Urbanist', sans-serif; */
-    font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  /* font-family: 'Urbanist', sans-serif; */
+  font-weight: 300;
 }
 .icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    /* padding-right: 10px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  /* padding-right: 10px; */
 }
 .product-icon {
-    display: flex;
-    margin-right: 10px;
-    justify-content: center;
-    height: 1.1rem;
-    width: 3rem;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
-    /* font-size: 0.6rem; */
-    border-radius: 2rem;
-    border: solid black 1px;
+  display: flex;
+  margin-right: 10px;
+  justify-content: center;
+  height: 1.1rem;
+  width: 3rem;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  /* font-size: 0.6rem; */
+  border-radius: 2rem;
+  border: solid black 1px;
 }
 .product-icon img {
-    height: 1.2rem;
-    width: 1.2rem;
+  height: 1.2rem;
+  width: 1.2rem;
 }
 .bestsellers .content {
-    text-align: start;
-    font-family: 'Courier Prime', monospace;
-    font-size: 0.7rem;
+  text-align: start;
+  font-family: "Courier Prime", monospace;
+  font-size: 0.7rem;
 }
 .bestseller-products {
-    /* border: 1px red solid; */
-    display: flex;
-    flex-direction: row;
-    overflow-x: auto;
-    overflow-y: hidden;
-    scroll-behavior: smooth;
-    text-align: start;
-    justify-content: space-between;
-    width: 60%;
-
+  /* border: 1px red solid; */
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  text-align: start;
+  justify-content: space-between;
+  width: 60%;
 }
-
 
 /* Container- 2 */
 .container-two {
-    display: flex;
-    flex-direction: column;
-    /* border-bottom: 1px solid black; */
-    padding: 30px 20px;
-    height: 80vh;
-    justify-content: space-between;
-    /* border: 1px red solid; */
+  display: flex;
+  flex-direction: column;
+  /* border-bottom: 1px solid black; */
+  padding: 30px 20px;
+  height: 80vh;
+  justify-content: space-between;
+  /* border: 1px red solid; */
 }
 .container-two .heading {
-    font-family: 'Roboto', sans-serif; 
-    /* font-family: 'Urbanist', sans-serif; */
-    font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  /* font-family: 'Urbanist', sans-serif; */
+  font-weight: 300;
 }
-.catalog .catalog-img{
-    width: 50%;
+.catalog .catalog-img {
+  width: 50%;
 }
 .catalog .catalog-img img {
-    height: 60vh;
-    width: 100%;
+  height: 60vh;
+  width: 100%;
 }
 .container-two .catalog {
-    /* border: 1px red solid; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  /* border: 1px red solid; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .catalog-content {
-    height: 60vh;
-    width: 50%;
-    margin-left: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /* border: 1px red solid; */
+  height: 60vh;
+  width: 50%;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 1px red solid; */
 }
 .catalog-content .content {
-    /* border: 1px red solid; */
-    width: 80%;
-    text-align: start;
-    font-family: 'Courier Prime', monospace;
-    font-size: 0.7rem;
+  /* border: 1px red solid; */
+  width: 80%;
+  text-align: start;
+  font-family: "Courier Prime", monospace;
+  font-size: 0.7rem;
 }
 .catalog-content .links {
-    border-top: 1px solid black;
+  border-top: 1px solid black;
 }
 .catalog-content .links .row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
-    padding: 8px 0px 8px 0px;
-    border-bottom: 1px black solid;
-    font-size: 0.7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  padding: 8px 0px 8px 0px;
+  border-bottom: 1px black solid;
+  font-size: 0.7rem;
 }
 
 /* Container-3 */
 .container-three {
-    background-image: url("assets/images/coverimg.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /* width: 100%; */
-    display: flex;
-    flex-direction: column;
-    /* border: 1px solid red; */
-    height: 50vh;
-    align-items: center;
-    justify-content: space-around;
+  background-image: url("assets/images/coverimg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  height: 50vh;
+  align-items: center;
+  justify-content: space-around;
 }
 .custom-product {
-    /* border: 1px solid red; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: 30%;
-    height: 30vh;
-    background: transparent;
-    color: rgb(241, 233, 210)
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  height: 30vh;
+  background: transparent;
+  color: rgb(241, 233, 210);
 }
 .custom-product .heading {
-    font-family: 'Roboto', sans-serif; 
-    /* font-family: 'Urbanist', sans-serif; */
-    font-weight: 300;
-    background: transparent;
-    text-align: center;
-    font-size: 1.4rem;
-    /* color: rgb(241, 233, 210); */
-
+  font-family: "Roboto", sans-serif;
+  /* font-family: 'Urbanist', sans-serif; */
+  font-weight: 300;
+  background: transparent;
+  text-align: center;
+  font-size: 1.4rem;
+  /* color: rgb(241, 233, 210); */
 }
 .custom-product .content {
-    text-align: center;
-    font-family: 'Courier Prime', monospace;
-    font-size: 0.7rem;
-    background: transparent;
-    /* color: rgb(241, 233, 210), */
+  text-align: center;
+  font-family: "Courier Prime", monospace;
+  font-size: 0.7rem;
+  background: transparent;
+  /* color: rgb(241, 233, 210), */
 }
 .create-btn {
-    display: flex;
-    justify-content: center;
-    height: 1.5rem;
-    width: 8rem;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
-    font-size: 0.6rem;
-    border-radius: 2rem;
-    border: solid  1px rgb(241, 233, 210);
-    background-color: transparent;
+  display: flex;
+  justify-content: center;
+  height: 1.5rem;
+  width: 8rem;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.6rem;
+  border-radius: 2rem;
+  border: solid 1px rgb(241, 233, 210);
+  background-color: transparent;
 }
 
 /* Container-4 */
 .container-four {
-    display: flex;
-    flex-direction: row;
-    /* border-bottom: 1px solid black; */
-    padding: 30px 20px;
-    height: 80vh;
-    justify-content: space-between;
-    /* border: 1px red solid; */
+  display: flex;
+  flex-direction: row;
+  /* border-bottom: 1px solid black; */
+  padding: 30px 20px;
+  height: 80vh;
+  justify-content: space-between;
+  /* border: 1px red solid; */
 }
 .philosophy {
-    width: 50%;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /* border: 1px red solid; */
-    margin-right: 20px;
-
+  width: 50%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 1px red solid; */
+  margin-right: 20px;
 }
 .philosophy .heading {
-    font-family: 'Roboto', sans-serif; 
-    /* font-family: 'Urbanist', sans-serif; */
-    font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  /* font-family: 'Urbanist', sans-serif; */
+  font-weight: 300;
 }
 .philosophy .phil-subsec {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* border: 1px red solid; */
-    height: 55vh;
-    width: 100%;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: 1px red solid; */
+  height: 55vh;
+  width: 100%;
 }
 .phil-subsec .phil-img {
-    width: 50%;
-    /* border: 1px red solid; */
+  width: 50%;
+  /* border: 1px red solid; */
 }
-.phil-subsec .phil-img img{
-    height: 55vh;
-    width: 100%;
+.phil-subsec .phil-img img {
+  height: 55vh;
+  width: 100%;
 }
-.phil-subsec .content{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: start;
-    padding-bottom: 20px;
-    margin-left: 15px;
-    width: 50%;
-    height: 50%;
-    /* border: 1px red solid; */
+.phil-subsec .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: start;
+  padding-bottom: 20px;
+  margin-left: 15px;
+  width: 50%;
+  height: 50%;
+  padding: 0px 8px 0px 8px;
+  /* border: 1px red solid; */
 }
 .phil-subsec .content .para {
-    text-align: start;
-    font-family: 'Courier Prime', monospace;
-    font-size: 0.7rem;
+  text-align: start;
+  font-family: "Courier Prime", monospace;
+  font-size: 0.7rem;
+  /* padding: 0px 8px 0px 8px; */
 }
 .phil-subsec .content .read-btn {
-    display: flex;
-    justify-content: center;
-    height: 1.5rem;
-    width: 5rem;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
-    font-size: 0.6rem;
-    border-radius: 2rem;
-    border: solid black 1px;
-    background-color: transparent;
+  display: flex;
+  justify-content: center;
+  height: 1.5rem;
+  width: 5rem;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.6rem;
+  border-radius: 2rem;
+  border: solid black 1px;
+  background-color: transparent;
 }
 .phil-base-img {
-    width: 50%;
-    /* border: 1px red solid; */
-    height: 70vh;
+  width: 50%;
+  /* border: 1px red solid; */
+  height: 70vh;
 }
 .phil-base-img img {
-    height: 70vh;
-    width: 100%;
+  height: 70vh;
+  width: 100%;
+}
+
+/* Container- 5 */
+.container-five {
+  display: flex;
+  flex-direction: row;
+  /* border-bottom: 1px solid black; */
+  padding: 30px 20px;
+  height: 60vh;
+  justify-content: space-between;
+}
+.new-arrivals {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: space-between;
+  width: 30%;
+}
+.new-arrivals .partition {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  height: 15vh;
+  justify-content: space-between;
+}
+.new-arrivals .heading {
+  font-family: "Roboto", sans-serif;
+  /* font-family: 'Urbanist', sans-serif; */
+  font-weight: 300;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  /* padding-right: 10px; */
+}
+.product-icon {
+  display: flex;
+  margin-right: 10px;
+  justify-content: center;
+  height: 1.1rem;
+  width: 3rem;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  /* font-size: 0.6rem; */
+  border-radius: 2rem;
+  border: solid black 1px;
+}
+.product-icon img {
+  height: 1.2rem;
+  width: 1.2rem;
+}
+.new-arrivals .content {
+  text-align: start;
+  font-family: "Courier Prime", monospace;
+  font-size: 0.7rem;
+}
+.new-arrivals-products {
+  /* border: 1px red solid; */
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  text-align: start;
+  justify-content: space-between;
+  width: 60%;
+}
+
+/* Container-6 */
+.container-six {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90vh;
+  /* border: 1px solid red; */
+  padding: 30px 20px;
+}
+.container-six .stories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 15vh;
+  /* border: 1px solid red; */
+}
+.stories .heading {
+  text-align: start;
+  font-family: "Roboto", sans-serif;
+  /* font-family: 'Urbanist', sans-serif; */
+  font-weight: 300;
+  width: 40%;
+  /* border: 1px solid red; */
+}
+.stories .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  width: 40%;
+}
+.stories .content .para {
+  text-align: start;
+  font-family: "Courier Prime", monospace;
+  font-size: 0.7rem;
+  /* width: 50%; */
+}
+.stories .content .stories-btn {
+  display: flex;
+  justify-content: center;
+  height: 1.5rem;
+  width: 8rem;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.6rem;
+  border-radius: 2rem;
+  border: solid black 1px;
+  background-color: transparent;
+}
+
+.container-six .stories-img {
+  height: 60vh;
+  /* border: 1px solid red; */
+}
+.container-six .stories-img img {
+  height: 60vh;
+  width: 100%;
+}
+
+/* Container-7  */
+.container-seven {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 55vh;
+  /* border: 1px solid red; */
+  padding: 30px 20px;
+}
+.container-seven .heading {
+  text-align: start;
+  font-family: "Roboto", sans-serif;
+  /* font-family: 'Urbanist', sans-serif; */
+  font-weight: 300;
+  width: 40%;
+  /* border: 1px solid red; */
+}
+.container-seven .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0px 20px 0px;
+}
+.container-seven .content div {
+  height: 35vh;
+  /* border: 1px solid red; */
+  width: 22%;
+}
+.container-seven .content div img {
+  height: 35vh;
+  /* border: 1px solid red; */
+  width: 100%;
+}
+.container-seven .content .incontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: start;
+  border: 1px solid black;
+}
+.container-seven .content .incontent .para {
+  text-align: start;
+  font-family: "Courier Prime", monospace;
+  font-size: 0.7rem;
+  /* border: 1px solid red; */
+  width: 100%;
+}
+.container-seven .content .incontent .insta-btn {
+  display: flex;
+  justify-content: center;
+  height: 1.5rem;
+  width: 5rem;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.6rem;
+  border-radius: 2rem;
+  border: solid black 1px;
+  background-color: transparent;
+}
+
+.footer {
+  background-color: black;
+  height: 40vh;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(241, 233, 210);
+  /* color: rgb(180, 179, 179); */
+  /* border: 1px red solid; */
+}
+footer div {
+  background: inherit;
+  /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+  /* border: 1px red solid; */
+}
+.footer .brand {
+  background: inherit;
+  height: 30vh;
+  width: 35%;
+  margin-right: 20px;
+  align-items: start;
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.brand .sub-content {
+  width: 100%;
+  font-family: "Courier Prime", monospace;
+  font-size: 0.6rem;
+}
+.brand .light-text {
+  font-size: 0.5rem;
+  font-family: "Courier Prime", monospace;
+}
+/* .footer .heading {
+  text-align: start;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.6rem;
+  font-weight: 300;
+}
+.footer .content {
+  font-family: "Courier Prime", monospace;
+  font-size: 0.6rem;
+} */
+/* .brand .subscribe{
+  text-align: start;
+  /* border: 1px solid red; 
+  width: 100%;
+} */
+.footer .catalog {
+    width: 20%;
+    /* border: 1px solid red; */
+}
+.footer .catalog .heading {
+  text-align: start;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.6rem;
+  font-weight: 500;
+}
+.footer .catalog .content {
+  background-color: transparent;
+  /* border: 1px solid red; */
+}
+.footer .catalog .content ul {
+  text-decoration: none;
+  list-style: none;
+  background-color: transparent;
+}
+.footer .catalog .content li {
+  background-color: transparent;
+  text-decoration: none;
+  list-style: none;
+}
+.footer .catalog .content li a {
+  background: inherit;
+  margin-bottom: 10px;
+  font-size: 0.6rem;
+  text-decoration: none;
+  font-family: "Courier Prime", monospace;
+  color: rgb(180, 179, 179);
+}
+
+.footer .info {
+    width: 20%;
+    /* border: 1px solid red; */
+}
+.footer .info .heading {
+  text-align: start;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.6rem;
+  font-weight: 500;
+}
+.footer .info .content {
+  background-color: transparent;
+  /* border: 1px solid red; */
+}
+.footer .info .content ul {
+  text-decoration: none;
+  list-style: none;
+  background-color: transparent;
+}
+.footer .info .content li {
+  background-color: transparent;
+  text-decoration: none;
+  list-style: none;
+}
+.footer .info .content li a {
+  background: inherit;
+  margin-bottom: 10px;
+  font-size: 0.6rem;
+  text-decoration: none;
+  font-family: "Courier Prime", monospace;
+  color: rgb(180, 179, 179);
+}
+.footer .toread-and-shop {
+    width: 20%;
+    /* border: 1px solid red; */
+}
+.footer .toread-and-shop .heading {
+  text-align: start;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.6rem;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.footer .toread-and-shop .content {
+  background-color: transparent;
+  /* border: 1px solid red; */
+}
+.footer .toread-and-shop .content ul {
+  text-decoration: none;
+  list-style: none;
+  background-color: transparent;
+}
+.footer .toread-and-shop .content li {
+  background-color: transparent;
+  text-decoration: none;
+  list-style: none;
+  background: inherit;
+  margin-bottom: 10px;
+  font-size: 0.6rem;
+  text-decoration: none;
+  font-family: "Courier Prime", monospace;
+  color: rgb(180, 179, 179);
+}
+.footer .toread-and-shop .content li a {
+  background: inherit;
+  margin-bottom: 10px;
+  font-size: 0.6rem;
+  text-decoration: none;
+  font-family: "Courier Prime", monospace;
+  color: rgb(180, 179, 179);
 }
