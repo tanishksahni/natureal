@@ -52,7 +52,7 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
 }
 .header-left {
   width: 50%;
@@ -225,7 +225,7 @@ nav {
 
 /* Container-3 */
 .container-three {
-  background-image: url("assets/images/coverimg.png");
+  background-image: url("assets/images/bgownproduct.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -611,6 +611,7 @@ footer div {
   font-family: "Roboto", sans-serif;
   font-size: 0.6rem;
   font-weight: 500;
+  /* padding-bottom: 10px; */
 }
 .footer .catalog .content {
   background-color: transparent;
@@ -644,6 +645,7 @@ footer div {
   font-family: "Roboto", sans-serif;
   font-size: 0.6rem;
   font-weight: 500;
+  /* padding-bottom: 10px; */
 }
 .footer .info .content {
   background-color: transparent;
@@ -676,7 +678,7 @@ footer div {
   font-family: "Roboto", sans-serif;
   font-size: 0.6rem;
   font-weight: 500;
-  padding-bottom: 10px;
+  padding-bottom: 6px;
 }
 .footer .toread-and-shop .content {
   background-color: transparent;
