@@ -113,6 +113,8 @@ nav {
   text-align: start;
   justify-content: space-between;
   width: 30%;
+  /* border: 1px red solid; */
+  height: 50vh;
 }
 .bestsellers .partition {
   /* border: 1px solid red; */
@@ -156,14 +158,53 @@ nav {
 }
 .bestseller-products {
   /* border: 1px red solid; */
+  height: 50vh;
   display: flex;
   flex-direction: row;
-  overflow-x: auto;
-  overflow-y: hidden;
+  /* overflow-x: auto;
+  overflow-y: hidden; */
   scroll-behavior: smooth;
   text-align: start;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 60%;
+}
+.bestseller-products .products-container {
+  height: 100%;
+  width: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* border: 1px red solid; */
+}
+.products-container .product-img {
+  display: flex;
+  
+  height: 85%;
+  width: 100%;
+  border: 1px solid black;
+  align-items: center;
+}
+.product-img img {
+  width: inherit;
+  height: inherit;
+  /* border: solid 1px red; */
+}
+.products-container .product-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+}
+.product-content .desc-1 {
+  text-align: start;
+  font-family: "Courier Prime", monospace;
+  font-size: 0.6rem;
+  width: 60%;
+}
+.product-content .price {
+  text-align: end;
+  font-family: "Courier Prime", monospace;
+  font-size: 0.6rem;
+  width: 40%;
 }
 
 /* Container- 2 */
@@ -415,16 +456,55 @@ nav {
   font-family: "Courier Prime", monospace;
   font-size: 0.7rem;
 }
-.new-arrivals-products {
+.new-arrival-products {
   /* border: 1px red solid; */
+  height: 50vh;
   display: flex;
   flex-direction: row;
-  overflow-x: auto;
-  overflow-y: hidden;
+  /* overflow-x: auto;
+  overflow-y: hidden; */
   scroll-behavior: smooth;
   text-align: start;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 60%;
+}
+.new-arrival-products .products-container {
+  height: 100%;
+  width: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* border: 1px red solid; */
+}
+.products-container .product-img {
+  display: flex;
+  
+  height: 85%;
+  width: 100%;
+  border: 1px solid black;
+  align-items: center;
+}
+.product-img img {
+  width: inherit;
+  height: inherit;
+  /* border: solid 1px red; */
+}
+.products-container .product-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+}
+.product-content .desc-1 {
+  text-align: start;
+  font-family: "Courier Prime", monospace;
+  font-size: 0.6rem;
+  width: 60%;
+}
+.product-content .price {
+  text-align: end;
+  font-family: "Courier Prime", monospace;
+  font-size: 0.6rem;
+  width: 40%;
 }
 
 /* Container-6 */
