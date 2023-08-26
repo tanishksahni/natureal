@@ -281,3 +281,84 @@ nav {
     border: solid  1px rgb(241, 233, 210);
     background-color: transparent;
 }
+
+/* Container-4 */
+.container-four {
+    display: flex;
+    flex-direction: row;
+    /* border-bottom: 1px solid black; */
+    padding: 30px 20px;
+    height: 80vh;
+    justify-content: space-between;
+    /* border: 1px red solid; */
+}
+.philosophy {
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px red solid; */
+    margin-right: 20px;
+
+}
+.philosophy .heading {
+    font-family: 'Roboto', sans-serif; 
+    /* font-family: 'Urbanist', sans-serif; */
+    font-weight: 300;
+}
+.philosophy .phil-subsec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px red solid; */
+    height: 55vh;
+    width: 100%;
+
+}
+.phil-subsec .phil-img {
+    width: 50%;
+    /* border: 1px red solid; */
+}
+.phil-subsec .phil-img img{
+    height: 55vh;
+    width: 100%;
+}
+.phil-subsec .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+    padding-bottom: 20px;
+    margin-left: 15px;
+    width: 50%;
+    height: 50%;
+    /* border: 1px red solid; */
+}
+.phil-subsec .content .para {
+    text-align: start;
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.7rem;
+}
+.phil-subsec .content .read-btn {
+    display: flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 5rem;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.6rem;
+    border-radius: 2rem;
+    border: solid black 1px;
+    background-color: transparent;
+}
+.phil-base-img {
+    width: 50%;
+    /* border: 1px red solid; */
+    height: 70vh;
+}
+.phil-base-img img {
+    height: 70vh;
+    width: 100%;
+}
