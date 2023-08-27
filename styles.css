@@ -18,6 +18,10 @@
   font-family: "Roboto", sans-serif; /* font-family: 'Open Sans', sans-serif; */
   font-size: 0.8rem;
 }
+.logo a{
+  text-decoration: none;
+  color: black;
+}
 header {
   position: relative;
 }
