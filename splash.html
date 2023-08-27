@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Natureal: Splash</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .splash-container {
+        display: flex;
+        background-image: url("assets/images/bgmainnn.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        align-items: center;
+        /* border: 1px red solid; */
+      }
+      .container {
+        height: 100%;
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        padding: 25px 40px 25px 40px;
+        /* border: 1px red solid; */
+      }
+      .con-column {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* align-content: center; */
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: rgb(241, 233, 210);
+        /* border: 1px red solid; */
+      }
+      .con-column img {
+        height: 90%;
+        width: 100%;
+        /* border: 1px red solid; */
+      }
+
+      .con-column .heading {
+        margin-top: 10px;
+        font-family: "Roboto", sans-serif; /* font-family: 'Open Sans', sans-serif; */
+        font-size: 2.5rem;
+        /* border: 1px red solid; */
+        /* padding: 10px; */
+      }
+    </style>
+  </head>
+  <body>
+    <header class="splash-container">
+      <div class="container">
+        <div class="con-column">
+          <img src="../../assets/images/productmain.png" />
+          <div class="heading">NATUREAL</div>
+        </div>
+      </div>
+    </header>
+    <script src="script.js"></script>
+  </body>
+</html>
