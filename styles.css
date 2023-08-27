@@ -100,7 +100,15 @@ nav {
   border-radius: 2rem;
   border: solid black 1px;
   background-color: transparent;
+  font-family: "Courier Prime", monospace;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
+.shop-btn:hover {
+  background-color: black;
+  color: rgb(241, 233, 210);
+}
+
 
 /* Container - 1 */
 .container-one {
@@ -321,6 +329,8 @@ nav {
   border-radius: 2rem;
   border: solid 1px rgb(241, 233, 210);
   background-color: transparent;
+  font-family: "Courier Prime", monospace;
+  cursor: pointer;
 }
 
 /* Container-4 */
@@ -392,8 +402,17 @@ nav {
   font-size: 0.6rem;
   border-radius: 2rem;
   border: solid black 1px;
-  background-color: transparent;
+  /* background-color: transparent; */
+  font-family: "Courier Prime", monospace;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
+.read-btn:hover {
+  background-color: black;
+  color: rgb(241, 233, 210);
+}
+
+
 .phil-base-img {
   width: 50%;
   /* border: 1px red solid; */
@@ -559,7 +578,13 @@ nav {
   font-size: 0.6rem;
   border-radius: 2rem;
   border: solid black 1px;
-  background-color: transparent;
+  font-family: "Courier Prime", monospace;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.stories-btn:hover {
+  background-color: black;
+  color: rgb(241, 233, 210);
 }
 
 .container-six .stories-img {
@@ -619,18 +644,25 @@ nav {
   /* border: 1px solid red; */
   width: 100%;
 }
-.container-seven .content .incontent .insta-btn {
+.container-seven .content .incontent .insta-btn{
   display: flex;
   justify-content: center;
   height: 1.5rem;
-  width: 5rem;
+  width: 8rem;
   align-items: center;
   text-align: center;
   padding: 10px;
   font-size: 0.6rem;
   border-radius: 2rem;
   border: solid black 1px;
-  background-color: transparent;
+  /* background-color: transparent; */
+  font-family: "Courier Prime", monospace;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.incontent .insta-btn:hover {
+  background-color: black;
+  color: rgb(241, 233, 210);
 }
 
 .footer {

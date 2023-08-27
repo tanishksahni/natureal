@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgb(241, 233, 210);
+}
+.signup-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.login-img {
+  width: 50%;
+  height: 90vh;
+}
+.login-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: inherit;
+}
+.signup-form {
+  width: 50%;
+  height: 90vh;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.member-head {
+  font-family: "Roboto", sans-serif; /* font-family: 'Open Sans', sans-serif; */
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: start;
+}
+.member-head strong{ 
+    color: #996F45;
+}
+.member-subhead{
+  font-family: "Courier Prime", monospace; /* font-family: 'Open Sans', sans-serif; */
+  font-size: 0.6rem;
+  text-align: start;
+
+}
+.name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /* font-family: "Roboto", sans-serif; */
+    /* border: 1px red solid; */
+}
+.form-group {
+    width: 45%;
+    margin-bottom: 10px;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /* font-family: "Roboto", sans-serif; */
+    /* border: 1px red solid; */
+}
+.password {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /* font-family: "Roboto", sans-serif; */
+    /* border: 1px red solid; */
+}
+label {
+    display: flex;
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-size: 0.6rem;
+    font-family: "Courier Prime", monospace;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"] {
+    font-size: 0.6rem;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-family: "Courier Prime", monospace;
+    /* border: 1px red solid; */
+}
+button {
+    margin: 30px 0;
+    font-family: "Courier Prime", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.5rem;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.6rem;
+    border-radius: 2rem;
+    border: 1px solid black;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: black;
+    color: rgb(241, 233, 210);
+}
